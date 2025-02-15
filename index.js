@@ -21,7 +21,7 @@ const app = express()
 
 app.use(cors({
     credentials : true,
-    origin : 'https://vruksha.vercel.app/'
+    origin : 'https://vruksha.vercel.app'
 }))
 app.use(express.json())
 app.use(cookieParser())
